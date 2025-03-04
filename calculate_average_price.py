@@ -18,5 +18,10 @@ def calculate_average():
     else:
         print("You not enter any price.")
 
+def total_sales(data):
+    return sum(data)
+
 #call function
 calculate_average()
+
+total_sales()
